@@ -10,7 +10,7 @@ I built **NekoPlay** because I wanted the "expensive" soundstage of Apple Music 
   <img src="Assets/chi.png" alt="Chibi" width="200"><br>
   <i>~ Vibe Music, Better Code ~</i>
 </div>
-
+<br>
 If you're on Linux and care about bit-perfect audio but don't want to sacrifice your hearing or your hardware, this is for you.
 
 ---
