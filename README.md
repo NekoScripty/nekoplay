@@ -51,7 +51,7 @@ chmod +x nekoplay.sh
 ###### [ENTER] - Next Track
 ###### [Q] - Quit safely
 
-💎 Audiophile Pro-Tip (PipeWire)
+## 💎 Audiophile Pro-Tip (PipeWire)
 To get the most out of this, you should let PipeWire handle high sample rates natively. Create a config file at ~/.config/pipewire/pipewire.conf.d/10-rates.conf:
 
 ```ini
@@ -63,7 +63,7 @@ context.properties = {
 ## Then restart audio with systemctl --user restart pipewire. This ensures the 96kHz signal from NekoPlay reaches your DAC without being "stepped on" by the OS.
 
 ## 📜 License
-#### Licensed under the GPLv3. Protect your ears and keep the code free.
+<p> Licensed under the GPLv3. Protect your ears and keep the code free. </p>
 
 <div align="center">
 <p>
