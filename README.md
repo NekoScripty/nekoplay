@@ -60,7 +60,7 @@ context.properties = {
 }
 ```
 
-## Then restart audio with systemctl --user restart pipewire. This ensures the 96kHz signal from NekoPlay reaches your DAC without being "stepped on" by the OS.
+<p> Then restart audio with systemctl --user restart pipewire. This ensures the 96kHz signal from NekoPlay reaches your DAC without being "stepped on" by the OS. </p>
 
 ## 📜 License
 <p> Licensed under the GPLv3. Protect your ears and keep the code free. </p>
