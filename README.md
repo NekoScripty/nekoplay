@@ -34,6 +34,6 @@ You'll need a few standard Linux tools (optimized for Arch, but works everywhere
 Just grab the script and make it yours:
 
 ```bash
-git clone [https://github.com/NekoScripty/Nekoplay.git](https://github.com/NekoScripty/Nekoplay.git)
-cd Nekoplay
+git clone https://github.com/NekoScripty/Nekoplay.git
+&& cd Nekoplay &&
 chmod +x nekoplay.sh
