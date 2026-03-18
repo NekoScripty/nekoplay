@@ -7,7 +7,7 @@
 I built **NekoPlay** because I wanted the "expensive" soundstage of Apple Music and high-end DACs without the bloat of a heavy GUI or proprietary software. This is a minimal bash-driven audio engine that turns `mpv` into a studio-grade signal chain specifically tuned for **IEM (In-Ear Monitor) health** and high-fidelity transparency.
 
 <div align="center">
-  <img src="Assets/chi.png" alt="Chibi" width="200"><br>
+  <img src="Assets/mik.png" alt="Chibi" width="200"><br>
   <i>~ Vibe Music, Better Code ~</i>
 </div>
 <br>
