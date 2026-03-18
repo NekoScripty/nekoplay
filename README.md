@@ -50,3 +50,24 @@ chmod +x nekoplay.sh
 ###### [LEFT / RIGHT] - Seek 5 seconds
 ###### [ENTER] - Next Track
 ###### [Q] - Quit safely
+
+💎 Audiophile Pro-Tip (PipeWire)
+To get the most out of this, you should let PipeWire handle high sample rates natively. Create a config file at ~/.config/pipewire/pipewire.conf.d/10-rates.conf:
+
+```ini
+context.properties = {
+    default.clock.allowed-rates = [ 44100 48000 88200 96000 192000 ]
+}
+```
+
+## Then restart audio with systemctl --user restart pipewire. This ensures the 96kHz signal from NekoPlay reaches your DAC without being "stepped on" by the OS.
+
+## 📜 License
+#### Licensed under the GPLv3. Protect your ears and keep the code free.
+
+<div align="center">
+<p>
+🌟 GitHub "About" Description
+🎧 NekoPlay | The Audiophile's Terminal Engine by @NekoScripty. 🚀 Studio-grade 32-bit float pipeline. 🛡️ Focused on IEM health & ear protection. 🌌 Spatial "Atmos-like" soundstage in a minimal Bash script. 💎 Bit-perfect Soxr resampling. 🐾
+</p>
+</div>
