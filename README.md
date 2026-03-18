@@ -41,3 +41,12 @@ Just grab the script and make it yours:
 git clone https://github.com/NekoScripty/Nekoplay.git
 cd Nekoplay
 chmod +x nekoplay.sh
+```
+
+## 🎮 Controls
+#### The controls are tactile and simple so you can stay in your terminal or window manager:
+###### [SPACE] - Play / Pause
+###### [UP / DOWN] - Volume (±2%)
+###### [LEFT / RIGHT] - Seek 5 seconds
+###### [ENTER] - Next Track
+###### [Q] - Quit safely
