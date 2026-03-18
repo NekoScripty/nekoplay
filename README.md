@@ -6,7 +6,10 @@
 
 I built **NekoPlay** because I wanted the "expensive" soundstage of Apple Music and high-end DACs without the bloat of a heavy GUI or proprietary software. This is a minimal bash-driven audio engine that turns `mpv` into a studio-grade signal chain specifically tuned for **IEM (In-Ear Monitor) health** and high-fidelity transparency.
 
-# Klkslksa
+<div align="center">
+  <img src="Assets/chi.png" alt="Chibi" width="200"><br>
+  <i>« Stay Comfy, Stay Code »</i>
+</div>
 
 If you're on Linux and care about bit-perfect audio but don't want to sacrifice your hearing or your hardware, this is for you.
 
