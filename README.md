@@ -65,7 +65,6 @@ context.properties = {
 ## 📜 License
 <p> Licensed under the GPLv3. Protect your ears and keep the code free. </p>
 
-<div align="center">
 <p>
 🌟 GitHub "About" Description
 🎧 NekoPlay | The Audiophile's Terminal Engine by @NekoScripty. 🚀 Studio-grade 32-bit float pipeline. 🛡️ Focused on IEM health & ear protection. 🌌 Spatial "Atmos-like" soundstage in a minimal Bash script. 💎 Bit-perfect Soxr resampling. 🐾
