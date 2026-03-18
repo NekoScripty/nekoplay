@@ -6,6 +6,8 @@
 
 I built **NekoPlay** because I wanted the "expensive" soundstage of Apple Music and high-end DACs without the bloat of a heavy GUI or proprietary software. This is a minimal bash-driven audio engine that turns `mpv` into a studio-grade signal chain specifically tuned for **IEM (In-Ear Monitor) health** and high-fidelity transparency.
 
+# Klkslksa
+
 If you're on Linux and care about bit-perfect audio but don't want to sacrifice your hearing or your hardware, this is for you.
 
 ---
@@ -37,6 +39,11 @@ You'll need a few standard Linux tools (optimized for Arch, but works everywhere
 ### 2. Installation
 Just grab the script and make it yours:
 
+### Arch Linux Dependencies
+```bash
+sudo pacman -S mpv ffmpeg yt-dlp libnotify libsoxr libbs2b
+```
+### install
 ```bash
 git clone https://github.com/NekoScripty/nekoplay.git
 cd nekoplay
@@ -50,15 +57,6 @@ chmod +x nekoplay.sh
 ###### [LEFT / RIGHT] - Seek 5 seconds
 ###### [ENTER] - Next Track
 ###### [Q] - Quit safely
-
-## 💎 Audiophile Pro-Tip (PipeWire)
-To get the most out of this, you should let PipeWire handle high sample rates natively. Create a config file at ~/.config/pipewire/pipewire.conf.d/10-rates.conf:
-
-```ini
-context.properties = {
-    default.clock.allowed-rates = [ 44100 48000 88200 96000 192000 ]
-}
-```
 
 <p> Then restart audio with systemctl --user restart pipewire. This ensures the 96kHz signal from NekoPlay reaches your DAC without being "stepped on" by the OS. </p>
 
